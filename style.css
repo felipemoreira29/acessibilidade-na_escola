@@ -1,14 +1,42 @@
+/* Estilos principais */
 body {
-       background-color: rgb(201, 43, 43);
-       color:white;
-       font-family:
-       margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #0051ff; /* Azul turquesa */
+    color: #000; /* Texto preto */
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 2.5em;
+    font-weight: bold; /* Negrito */
+    text-align: center;
+    margin-top: 20px;
 }
 
-p{
-    font-size: 20px;
+/* Estilo para a imagem */
+.imagem {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%; /* Responsivo */
+    height: auto;
+}
+
+/* Divisão do parágrafo em 3 colunas */
+p {
+    font-size: 1.2em;
+    font-weight: bold; /* Negrito */
+    color: #000; /* Preto */
+    margin: 20px;
+    padding: 20px;
+    column-count: 3; /* Número de colunas */
+    column-gap: 20px; /* Espaçamento entre colunas */
+    text-align: justify; /* Alinha o texto em ambas as margens */
+}
+
+/* Ajustes de responsividade */
+@media (max-width: 768px) {
+    p {
+        column-count: 1; /* Uma coluna em telas menores */
+    }
 }
