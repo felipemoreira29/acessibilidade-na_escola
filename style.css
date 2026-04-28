@@ -40,3 +40,9 @@ p {
         column-count: 1; /* Uma coluna em telas menores */
     }
 }
+h2 {
+    font-size: 2.5em;
+    font-weight: bold; /* Negrito */
+    text-align: center;
+    margin-top: 20px;
+}
